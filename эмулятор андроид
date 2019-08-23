@@ -1,0 +1,11 @@
+sudo adb install /the/location/of/file.apk
+
+Для удаления, соответственно:
+
+
+ 
+sudo adb uninstall /the/location/of/file.apk
+
+Запускать Anbox можно как из списка программ, так и из терминала:
+
+anbox session-manager

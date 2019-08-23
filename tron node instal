@@ -1,0 +1,27 @@
+Commands used in Video
+------------------------------------------------------------
+sudo apt-get update
+sudo apt-get upgrade
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+sudo git clone https://github.com/tronprotocol/java-tron.git
+cp java-tron/src/main/resources/config.conf java-tron
+cd java-tron
+sudo git branch
+sudo ./gradlew build
+sudo nano config.conf
+sudo ./gradlew run -Pwitness
+
+
+JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre/bin/java"
+
+/usr/bin/java
+
+PATH=/usr/lib/jvm/java-8-oracle/jre/bin/java:$PATH
+export PATH
+sourceJar
+
+java -jar build/libs/java-tron.jar -p verylongley --witness -c src/main/resources/config.conf
+
+java -jar java-tron.jar -p 0234f75e20a02afce36511c00b0863e70d544aa7082a2d7417e6f8538e63eaee --witness -c /root/java-tron/config.conf
